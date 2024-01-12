@@ -1,0 +1,9 @@
+//@import "../abstracts/variables.scss";
+%generalButtonsAndFotter{
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: $generalColor ;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}

@@ -1,0 +1,23 @@
+.itemImg {
+    width: 100%;
+    height: 150px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border: 3px solid $textprimarycolor;
+
+}
+
+@media all and(min-width:992px) {
+    .itemImg {
+        
+        border: 4px double $textprimarycolor;
+        
+    }
+
+}
+.cover{
+    background-size: cover;
+    height: 175px;
+    border: 0;
+}
